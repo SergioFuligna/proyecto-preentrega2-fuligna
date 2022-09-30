@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1><a href="../index.html"> SportWorld</a></h1>
+        <hr>
+
+
+        <nav>
+            <ul>
+
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./ofertas.html">Ofertas</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="fondo_contacto">
+
+        <div class="formulario">
+
+            <form action="">
+                <div class="nombre">
+                    <label for="nombre-usuario">Nombre y Apellido</label>
+                    <input type="text" id="nombre-usuario" name="nombre-usuario">
+                </div>
+
+                <div class="email">
+                    <label for="email">Ingrese su Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="asunto">
+                    <label for="asunto-email">Asunto</label>
+                    <select id="asunto-email">
+                        <option value="reclamo">Reclamo</option>
+                        <option value="finanzas">Finanzas</option>
+                        <option value="devoluciones">Devoluciones</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="mensaje">
+
+                    <label for="ingrese-mensaje">Ingrese su mensaje</label>
+
+                    <textarea name="" id="ingrese-mensaje" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="noticias">
+                    <label for="recibir-noticias">Desea recibir noticias</label>
+                    <input type="checkbox" id="recibir-noticias" value="si-noticias">
+                </div>
+
+                <div class="sexo">
+                    <label for="femenino">Femenino</label>
+                    <input type="radio" id="femenino" name="seleccion-genero" value="femenino">
+
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="masculino" name="seleccion-genero" value="masculino">
+
+                    <label for="otro">Otro</label>
+                    <input type="radio" id="otro" name="seleccion-genero" value="otro">
+                </div>
+
+                <div class="bot">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Reset">
+                    </div>
+
+            </form>
+
+        </div>
+    </div>
+
+    <footer>
+
+        <div>
+            <h4>Links</h4>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./ofertas.html">Ofertas</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Redes</h4>
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>WhatsApp</li>
+            </ul>
+        </div>
+
+        <div>
+            <form action="">
+                <div>
+                    <label for="news">Suscribite a nuestros newsletter</label>
+                    <input type="text" name="news" id="news">
+                </div>
+                <input type="submit" value="Suscribir">
+            </form>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

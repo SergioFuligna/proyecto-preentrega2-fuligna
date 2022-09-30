@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+
+header {
+    text-decoration: none;
+    background-color: black;
+    color: rgb(173, 154, 42);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+header nav {
+    width: 40%;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portada {
+    background-image: url(../imagenes/cincograndes.jpg);
+    background-position: unset;
+    background-size: cover;
+    min-height: 60vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada_texto {
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(146, 125, 7, 0.555);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.caja {
+    background-color: rgb(143, 123, 10);
+    width: 900px;
+    height: 600px;
+    border-radius: 1rem;
+    overflow: auto;
+    margin: 30px;
+
+}
+
+.titulo2 {
+    background-color: rgb(185, 162, 33);
+    color: black;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider {
+    display: flex;
+}
+
+.fondo {
+    background-color: rgb(22, 20, 20);
+    overflow: auto;
+}
+
+footer {
+    background-color: black;
+    color: rgb(190, 166, 28);
+    grid-area: footer;
+
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    justify-content: space-around;
+    justify-items: center;
+}
+
+/* footer {
+    background-color: black;
+    color: rgb(190, 166, 28);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+
+
+
+footer ul {
+    list-style-type: circle;
+}
+
+
+/*contacto  */
+
+.fondo_contacto {
+    background-color: rgb(22, 20, 20);
+    min-height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    background-color:rgb(185, 162, 33) ;
+    color: rgb(219, 194, 49);
+    border: 8px solid black;
+    
+    background-position: unset;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nombre {
+    background-color: black;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+.email {
+    background-color:black;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+.asunto {
+    background-color:black;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+.mensaje {
+    background-color: black;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+
+    margin: 20px;
+
+}
+
+.noticias {
+    background-color:black;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+.sexo {
+    background-color:black;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+.bot {
+    background-color:black;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1rem;
+    margin: 20px;
+}
+
+
+/* productos */
+
+.productos {
+
+    background-color: rgb(185, 162, 33);
+    color: black;
+    padding: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+    min-height: 5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+.tarjeta {
+    border: 2px solid black;
+    background-color: rgb(185, 162, 33);
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarjeta_img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.bt {
+    border: 2px solid black;
+    background-color: black;
+    color: rgb(185, 162, 33);
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.bt:hover {
+    border: 2px solid black;
+    background-color: gold;
+    color: black;
+}
+
+.barra {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+}
+
+.fondo_productos {
+    background-color: rgb(22, 20, 20);
+    color: black;
+    min-height: 80vh;
+}
+
+/* nosotros */
+
+.titulo_nosotros {
+    background-color: rgb(185, 162, 33);
+    color: black;
+    padding: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+    min-height: 5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;   
+}
