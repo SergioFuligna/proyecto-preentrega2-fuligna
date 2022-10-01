@@ -94,10 +94,7 @@ footer {
     color: rgb(190, 166, 28);
     grid-area: footer;
 
-    display: grid;
-    grid-template-columns: repeat(3, 25%);
-    justify-content: space-around;
-    justify-items: center;
+   
 }
 
 /* footer {
@@ -112,7 +109,7 @@ footer {
 
 
 footer ul {
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 
@@ -307,7 +304,7 @@ footer ul {
 
 .navbar-toggler {
     border: 2px solid rgb(185, 162, 33);
-    background-color: rgb(185, 162, 33);
+    background-color: ;
     color: rgb(185, 162, 33);
-    border-radius: 10px;  
+    border-radius: 10px;
 }
