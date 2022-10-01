@@ -40,7 +40,7 @@ header ul {
  }
 .portada {
     background-image: url(../imagenes/cincograndes.jpg);
-    background-position: unset;
+    background-position: auto;
     background-size: cover;
     min-height: 60vh;
 
