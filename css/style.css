@@ -87,7 +87,7 @@ header ul {
 .fondo {
     background-color: black;
     overflow: auto;
-    min-height: 80vh;
+    min-height: 60vh;
 }
 
 footer {
