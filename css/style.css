@@ -392,6 +392,20 @@ footer ul {
    cursor: pointer;
 }
 
+.title-carrusel {
+    
+    background-color: rgb(185, 162, 33);
+    color: black;
+    border: 3px solid black;
+   
+}
+
+.p-carrusel {
+    background-color: rgb(185, 162, 33);
+    color: black;
+    border: 3px solid black; 
+}
+
 /* background-color:rgb(185, 162, 33) ;
     color: rgb(219, 194, 49);
     border: 8px solid black;
