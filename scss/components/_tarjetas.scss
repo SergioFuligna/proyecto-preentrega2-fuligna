@@ -15,12 +15,13 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+    .tarjeta_img {
+        width: 200px;
+        height: 200px;
+    
+    }
 }
 
 
 
-.tarjeta_img {
-    width: 200px;
-    height: 200px;
-
-}

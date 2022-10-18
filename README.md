@@ -1,6 +1,3 @@
-#Repositorio de Sergio Fuligna   
-Se utilizo bootstrap para hacer responsive la paginas de inicio, contacto, productos y ofertas.
-En la pagina de nosotros el nav y footer son responsive.
-Se pusieron transiciones, transformaciones y animaciones.
-
+SE AGREGO SASS Y SEO CON ETIQUETA META NAME Y MODIFICACION DEL TITLE
+Además se hizo responsive le html de "nosotros" y asi quedaron las 5 páginas responsive, además, se elimino todo el texto falso de las páginas.
 

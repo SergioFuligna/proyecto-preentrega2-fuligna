@@ -1,8 +1,13 @@
 @import "utils/variables";
 
 @import "base/reset";
+@import "base/tipografia";
 
 @import "pages/index";
+@import "pages/contacto";
+@import "pages/nosotros";
+@import "pages/ofertas";
+@import "pages/productos";
 
 @import "layout/header";
 @import "layout/footer";
@@ -13,4 +18,5 @@
 @import "components/tarjetas";
 @import "components/movimientos";
 @import "components/barra";
+@import "components/carrusel";
 

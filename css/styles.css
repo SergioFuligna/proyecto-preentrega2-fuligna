@@ -32,6 +32,11 @@ main .title {
   border: 5px solid rgb(185, 162, 33);
 }
 
+.nosfon {
+  background-color: black;
+  color: white;
+}
+
 footer {
   background-color: black;
   color: rgb(190, 166, 28);
@@ -127,8 +132,7 @@ footer__ul {
   justify-content: space-between;
   align-items: center;
 }
-
-.tarjeta_img {
+.tarjeta .tarjeta_img {
   width: 200px;
   height: 200px;
 }
@@ -157,6 +161,18 @@ footer__ul {
   display: flex;
   gap: 10px;
   overflow: auto;
+}
+
+.title-carrusel {
+  background-color: rgb(185, 162, 33);
+  color: black;
+  border: 3px solid black;
+}
+
+.p-carrusel {
+  background-color: rgb(185, 162, 33);
+  color: black;
+  border: 3px solid black;
 }
 
 /*# sourceMappingURL=styles.css.map */
