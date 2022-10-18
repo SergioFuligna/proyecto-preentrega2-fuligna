@@ -1,0 +1,13 @@
+footer {
+    background-color: black;
+    color: rgb(190, 166, 28);
+    grid-area: footer;
+    border: 2px solid rgb(185, 162, 33);
+    
+
+    &__ul {
+        list-style-type: none;
+    }
+
+}
+

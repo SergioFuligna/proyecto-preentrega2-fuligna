@@ -1,1 +1,16 @@
+@import "utils/variables";
+
+@import "base/reset";
+
 @import "pages/index";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/nav";
+@import "layout/forms";
+
+@import "components/botones";
+@import "components/tarjetas";
+@import "components/movimientos";
+@import "components/barra";
+
