@@ -32,9 +32,34 @@ main .title {
   border: 5px solid rgb(185, 162, 33);
 }
 
+.imgnos2 {
+  width: 400px;
+  border-radius: 1rem;
+}
+
 .nosfon {
   background-color: black;
   color: white;
+}
+
+.imgnos {
+  width: 300px;
+  height: 300px;
+}
+
+.imgnos2 {
+  width: 400px;
+  border-radius: 1rem;
+}
+
+.imgnos2 {
+  width: 400px;
+  border-radius: 1rem;
+}
+
+.imgnos2 {
+  width: 400px;
+  border-radius: 1rem;
 }
 
 footer {
