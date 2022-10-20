@@ -1,8 +1,4 @@
 h2 {
-  color: rgb(185, 162, 33);
-}
-
-h3 {
   color: black;
 }
 
@@ -10,7 +6,7 @@ h3 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 a {
@@ -28,6 +24,11 @@ main {
   min-height: 60vh;
 }
 main .title {
+  background-color: rgb(185, 162, 33);
+  border: 2px solid rgb(185, 162, 33);
+  border-radius: 1rem;
+}
+main .title2 {
   background-color: black;
   border: 2px solid rgb(185, 162, 33);
   border-radius: 1rem;
@@ -69,14 +70,14 @@ footer {
   background-color: black;
   color: rgb(190, 166, 28);
   grid-area: footer;
-  border: 2px solid rgb(185, 162, 33);
+  border-top: 2px solid rgb(185, 162, 33);
 }
 footer__ul {
   list-style-type: none;
 }
 
 .navbar {
-  border: 2px solid rgb(185, 162, 33);
+  border-block-end: 2px solid rgb(185, 162, 33);
 }
 .navbar__navbar-brand {
   border: 2px solid rgb(185, 162, 33);

@@ -5,10 +5,16 @@ main {
     overflow: auto;
     min-height: 60vh;
 
-
     .title {
+        background-color: rgb(185, 162, 33);
+        border: 2px solid rgb(185, 162, 33);
+        border-radius: 1rem;
+        // font-family: 'DM Sans', sans-serif;
+    }
+    .title2 {
         background-color: black;
         border: 2px solid rgb(185, 162, 33);
         border-radius: 1rem;
     }
+
 }
