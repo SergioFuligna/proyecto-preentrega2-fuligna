@@ -30,8 +30,6 @@ main .title {
 }
 main .title2 {
   background-color: black;
-  border: 2px solid rgb(185, 162, 33);
-  border-radius: 1rem;
 }
 
 .imgnos2 {
@@ -71,6 +69,12 @@ footer {
   color: rgb(190, 166, 28);
   grid-area: footer;
   border-top: 2px solid rgb(185, 162, 33);
+}
+footer .title-footer {
+  border-block-end: 2px solid rgb(185, 162, 33);
+}
+footer .footer-con {
+  border-block-start: 2px solid rgb(185, 162, 33);
 }
 footer__ul {
   list-style-type: none;

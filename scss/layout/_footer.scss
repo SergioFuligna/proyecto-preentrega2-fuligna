@@ -3,6 +3,15 @@ footer {
     color: rgb(190, 166, 28);
     grid-area: footer;
     border-top: 2px solid rgb(185, 162, 33);
+
+    .title-footer {
+        border-block-end: 2px solid rgb(185, 162, 33);
+    
+    }
+
+    .footer-con {
+        border-block-start: 2px solid rgb(185, 162, 33);
+    }
     
 
     &__ul {
