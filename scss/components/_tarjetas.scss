@@ -6,10 +6,10 @@
 .tarjeta {
     border: 2px solid black;
     background-color: rgb(185, 162, 33);
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border-radius: 20px;
-    padding: 15px;
+    padding: 50px;
 
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@
     align-items: center;
 
     .tarjeta_img {
-        width: 200px;
+        width: 250px;
         height: 200px;
     
     }
