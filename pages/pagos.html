@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elegí tu medio de pago y finalizá tu compra">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
+    <title>Pagos | Finalizá tu compra</title>
+</head>
+
+<body>
+
+
+    <header class="navbar navbar-expand-lg" style="background-color: black;">
+
+        <div class="container-fluid">
+            <a href="../index.html" class="btn fw-bold">SPORTWORLD</a>
+            <button class="navbar-toggler" style="background-color:rgb(185, 162, 33)" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-3 mb-lg-0 align-items-center">
+                    <li class="nav-item px-4">
+                        <a class="nav-link" style="color:  rgb(185, 162, 33);" aria-current="page"
+                            href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" style="color: rgb(185, 162, 33) ;" aria-current="page"
+                            href="../pages/nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" style="color:  rgb(185, 162, 33);" aria-current="page"
+                            href="../pages/productos.html">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" style="color:  rgb(185, 162, 33);" aria-current="page"
+                            href="../pages/ofertas.html">OFERTAS</a>
+                    </li>
+                    <li class="nav-item px-4 ">
+                        <a class="nav-link" style="color:  rgb(185, 162, 33);" aria-current="page"
+                            href="../pages/contacto.html">CONTACTO</a>
+                    </li>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="buscar">
+                        <button class="btn" type="submit">Buscar</button>
+                    </form>
+                </ul>
+
+            </nav>
+
+
+        </div>
+
+    </header>
+
+
+    <main class="fondo">
+
+
+        <div class="container col-lg">
+            
+
+
+            <div class="container text-center mt-4">
+
+                <div class="container text-center">
+                    <h2 class="display-7 fw-bold title" data-aos="fade-up">Finalizá tu compra</h2>
+                </div>
+
+            </div>
+
+            <div class="container fondo-pagos py-4">
+
+
+                <div class="card-container">
+
+                    <div class="front">
+                        <div class="image">
+                            <img src="../imagenes/chiptarjeta.png" alt="chip-tarjeta" class="photo">
+                            <img src="../imagenes/logovisa.png" alt="logo-visa" class="photo">
+                        </div>
+                        <div class="card-number-box">################</div>
+                        <div class="flexbox">
+                            <div class="box">
+                                <span>TITULAR</span>
+                                <div class="card-holder-name">NOMBRE</div>
+                            </div>
+                            <div class="box">
+                                <span>VENCIMIENTO</span>
+                                <div class="expiration">
+                                    <span class="exp-month">MM</span>
+                                    <span class="exp-year">YY</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+                <form action="" class="forfondo2">
+                    <div class="inputBox">
+                        <span>Número de Tarjeta</span>
+                        <input type="text" maxlength="16" class="card-number-input">
+                    </div>
+                    <div class="inputBox">
+                        <span>Titular</span>
+                        <input type="text" class="card-holder-input">
+                    </div>
+                    <div class="">
+                        <div class="inputBox">
+                            <span>Vencimiento mm</span>
+                            <select name="" id="" class="month-input">
+                                <option value="Mes" selected disabled>Mes</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </div>
+                        <div class="inputBox">
+                            <span>Vencimiento yy</span>
+                            <select name="" class="year-input">
+                                <option value="Año" selected disabled>Año</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                                <option value="2030">2030</option>
+                            </select>
+                        </div>
+                        <div class="inputBox">
+                            <span>CVV</span>
+                            <input type="text" maxlength="4" class="cvv-input">
+                        </div>
+                    </div>
+                    <input type="submit" value="submit" class="submit-btn">
+                </form>
+
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="container-fluid">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="d-flex flex-column align-items-center p-3 title-footer">
+
+                    <a href="../index.html" class="btn fw-bold">SPORTWORLD</a>
+                </div>
+
+
+                <div class="d-flex flex-column align-items-center p-3 col-lg-3">
+                    <h4>LINKS</h4>
+                    <ul>
+                        <li class="movimientof"><a style="color:  rgb(185, 162, 33);" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="movimientof"> <a style="color:  rgb(185, 162, 33);"
+                                href="../pages/productos.html">PRODUCTOS</a></li>
+                        <li class="movimientof"><a style="color:  rgb(185, 162, 33);"
+                                href="../pages/ofertas.html">OFERTAS</a></li>
+                        <li class="movimientof"> <a style="color: rgb(185, 162, 33);"
+                                href="../pages/nosotros.html">NOSOTROS</a></li>
+                        <li class="movimientof"><a style="color:  rgb(185, 162, 33);"
+                                href="../pages/contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+
+                <div class="p-3 col-lg-4">
+                    <h4 class="text-center">Nuestras redes</h4>
+                    <div class="fs-2 d-flex justify-content-around p-3">
+                        <a style="color:  rgb(185, 162, 33);" href="https://www.instagram.com/" target="_blank"
+                            class="bi bi-instagram movimientof"></a>
+                        <a style="color:  rgb(185, 162, 33);" href="https://es-la.facebook.com/" target="_blank"
+                            class="bi bi-facebook movimientof"></a>
+                        <a style="color:  rgb(185, 162, 33);" href="https://twitter.com/?lang=es" target="_blank"
+                            class="bi bi-twitter movimientof"></a>
+                        <a style="color:  rgb(185, 162, 33);" href="https://www.youtube.com/" target="_blank"
+                            class="bi bi-youtube movimientof"></a>
+                    </div>
+
+                </div>
+
+                <div class="p-3 col-lg-4">
+
+                    <form action="">
+                        <div>
+                            <label for="email" class="d-flex justify-content-center fs-4">Suscribite a nuestro
+                                NewsLetter</label>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <input type="email" class="form-control w-45" placeholder="email@ejemplo.com" name="email"
+                                id="email">
+                        </div>
+                        <div class="d-flex justify-content-center p-3">
+                            <input type="submit" value="Enviar" class="btn ms-4">
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+
+            </div>
+
+            <div class="container footer-con">
+
+                <div class="row">
+
+                    <div class="d-flex flex-column align-items-center p-3 col-lg-3">
+                        <h4 class="text-center">Contacto 0800 222 SOLO (7656)</h4>
+
+                    </div>
+
+                    <div class="p-3 col-lg-4">
+                        <a style="color:  rgb(185, 162, 33);" href="https://www.whatsapp.com/?lang=es" target="_blank"
+                            class="text-center">
+                            <h4>Wp 2622465780</h4>
+                        </a>
+
+
+                    </div>
+
+                    <div class="p-3 col-lg-4">
+                        <h4 class="text-center">Compra 100% segura</h4>
+
+                    </div>
+
+                    <div class="footer-con">
+
+                        <h4 class="text-center">© 2022 Sportworld.</h4>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
