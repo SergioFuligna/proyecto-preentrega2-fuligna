@@ -53,7 +53,7 @@
 
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="buscar">
-                        <button class="btn" type="submit">Buscar</button>
+                        <button class="btn" type="submit">BUSCAR</button>
                     </form>
                 </ul>
 
@@ -67,65 +67,75 @@
 
     <main class="fondo">
 
+        <div class="container text-center mt-4">
 
-        <div class="container col-lg">
-            
+            <div class="container text-center">
+                <h2 class="display-7 fw-bold" data-aos="fade-up">FINALIZÁ TU COMPRA</h2>
+            </div>
+
+        </div>
+
+        <div class="container fondo-pagos py-4 text-center">
 
 
-            <div class="container text-center mt-4">
 
-                <div class="container text-center">
-                    <h2 class="display-7 fw-bold title" data-aos="fade-up">Finalizá tu compra</h2>
+            <div class="card-container">
+
+                <div class="row">
+
+                    <section class="front">
+                        <article class="image">
+                            <img src="../imagenes/chiptarjeta.png" alt="chip-tarjeta" class="photo">
+                            <img src="../imagenes/logovisa.png" alt="logo-visa" class="photo">
+                        </article>
+                        <p class="card-number-box">################</p>
+                        <article class="flexbox">
+                            <div class="box">
+                                <span>TITULAR</span>
+                                <p class="card-holder-name">NOMBRE</p>
+                            </div>
+                            <div class="box">
+                                <span>VENCIMIENTO</span>
+                                <p class="expiration">
+                                    <span class="exp-month">MM</span>
+                                    <span class="exp-year">YY</span>
+                                </p>
+                            </div>
+                        </article>
+
+                    </section>
                 </div>
 
             </div>
 
-            <div class="container fondo-pagos py-4">
 
 
-                <div class="card-container">
+            <form action="" class="forfondo2 m-3">
 
-                    <div class="front">
-                        <div class="image">
-                            <img src="../imagenes/chiptarjeta.png" alt="chip-tarjeta" class="photo">
-                            <img src="../imagenes/logovisa.png" alt="logo-visa" class="photo">
-                        </div>
-                        <div class="card-number-box">################</div>
-                        <div class="flexbox">
-                            <div class="box">
-                                <span>TITULAR</span>
-                                <div class="card-holder-name">NOMBRE</div>
-                            </div>
-                            <div class="box">
-                                <span>VENCIMIENTO</span>
-                                <div class="expiration">
-                                    <span class="exp-month">MM</span>
-                                    <span class="exp-year">YY</span>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row">
 
-                    </div>
-
-
-
-
-
-                </div>
-
-                <form action="" class="forfondo2">
                     <div class="inputBox">
-                        <span>NÚMERO DE TARJETA</span>
-                        <input type="text" maxlength="16" class="card-number-input">
+                        <div class="">
+                            <label for="número de tarjeta">NÚMERO DE TARJETA</label>
+                        </div>
+                        <div>
+                            <input type="text" id="número de tarjeta" name="número de tarjeta">
+                        </div>
                     </div>
                     <div class="inputBox">
-                        <span>TITULAR</span>
-                        <input type="text" class="card-holder-input">
+                        <div class="">
+                            <label for="titular">TITULAR</label>
+                        </div>
+                        <div>
+                            <input type="text" id="titular" name="titular">
+                        </div>
                     </div>
                     <div class="">
                         <div class="inputBox">
-                            <span>VENCIMIENTO M/M</span>
-                            <select name="" id="" class="month-input">
+                            <div class="">
+                                <label for="m/m">VENCIMIENTO M/M</label>
+                            </div>
+                            <select name="m/m" id="m/m" class="month-input">
                                 <option value="Mes" selected disabled>Mes</option>
                                 <option value="01">01</option>
                                 <option value="02">02</option>
@@ -142,8 +152,10 @@
                             </select>
                         </div>
                         <div class="inputBox">
-                            <span>VENCIMIENTO Y/Y</span>
-                            <select name="" class="year-input">
+                            <div class="">
+                                <label for="y/y">VENCIMIENTO Y/Y</label>
+                            </div>
+                            <select name="y/y" id="y/y" class="year-input">
                                 <option value="Año" selected disabled>Año</option>
                                 <option value="2022">2022</option>
                                 <option value="2023">2023</option>
@@ -157,16 +169,21 @@
                             </select>
                         </div>
                         <div class="inputBox">
-                            <span>CVV</span>
-                            <input type="text" maxlength="4" class="cvv-input">
+                            <div class="">
+                                <label for="cvv">CVV</label>
+                            </div>
+                            <div>
+                                <input type="text" id="cvv" name="cvv">
+                            </div>
                         </div>
                     </div>
                     <input type="submit" value="FINALIZAR" class="submit-btn">
-                </form>
-
-
-            </div>
+                </div>
+            </form>
         </div>
+
+
+
 
     </main>
 
@@ -224,7 +241,7 @@
                                 id="email">
                         </div>
                         <div class="d-flex justify-content-center p-3">
-                            <input type="submit" value="Enviar" class="btn ms-4">
+                            <input type="submit" value="ENVIAR" class="btn ms-4">
                         </div>
                     </form>
 
