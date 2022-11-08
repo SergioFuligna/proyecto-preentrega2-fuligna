@@ -1,3 +1,7 @@
-SE AGREGO SASS Y SEO CON ETIQUETA META NAME Y MODIFICACION DEL TITLE
-Además se hizo responsive le html de "nosotros" y asi quedaron las 5 páginas responsive, además, se elimino todo el texto falso de las páginas.
+SE FINALIZÓ EL PROYECTO 
+
+Seis archivos html: Inicio, Contacto, Nosotros, Productos, Ofertas y Pagos.
+Se utilizó SASS.
+Los seis archivos son responsive con Bootstrap.
+Todos los botones tienen navegabilidad.
 
